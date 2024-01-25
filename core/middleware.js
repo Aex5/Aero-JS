@@ -1,11 +1,11 @@
 class Middleware {
-    constructor(){
-        this.middleware = [];
-    }
+  constructor() {
+    this.middleware = [];
+  }
 
-    use(handler){
-        this.middleware.push(handler);
-    }
+  use(handler) {
+    this.middleware.push(handler);
+  }
 }
 
 module.exports = Middleware;
