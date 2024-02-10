@@ -1,15 +1,22 @@
 {
   "name": "aero",
   "version": "1.0.0",
-  "description": "javascript framework",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "nodemon src/server.js"
   },
-  "author": "aditya arga",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "formidable": "^3.5.1"
+    "@hapi/hapi": "^21.3.2",
+    "dotenv": "^16.1.2",
+    "h5": "^0.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "nodemon": "^2.0.22"
   }
 }
